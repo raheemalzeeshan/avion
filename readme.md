@@ -1,5 +1,7 @@
 # Avion
 
+**Live website [Live website](https://avion-ecom.netlify.app/).**
+
 ## Styling Guide
 
 ### Font Family use 
@@ -38,7 +40,7 @@
 
   ```
 
-** CSS reset refrence [CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/). **
+**CSS reset refrence [CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/).**
 
 
 
