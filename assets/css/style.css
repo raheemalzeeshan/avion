@@ -1,5 +1,45 @@
-*{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+/* Global variables */
+:root {
+    /* font family */
+    --ff-base: "Lato", sans-serif;
+    --ff-secondary: "Roboto Slab", serif;
+    /* Colors */
+    --clr-base-900: #000000;
+    --clr-primary: #3840A9;
+    --clr-secondary: #00662F;
+    --clr-footer: #344752;
+    --clr-base: #000000;
+    --clr-selected-text : #FF7A00;
+}
+
+/* CSS reset */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select, span {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6, span {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
