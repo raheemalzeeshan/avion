@@ -17,9 +17,9 @@
 
 ### Colors use
 
-  --clr-base-900: #000000;
-
-  --clr-base-500: #555;
+    -clr-base-900: #000000;
+    -clr-base-500: #555;
+  
 
   --clr-base-400: #9d9d9d;
 
