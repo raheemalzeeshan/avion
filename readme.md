@@ -3,6 +3,7 @@
 **Live website [Live website](https://avion-ecom.netlify.app/).**
 
 ## Guide
+
 -Mobile first approch
 -Using css BEM methodology
 
@@ -15,6 +16,7 @@
     -Secondary font family: Roboto slap
 
 ### Colors use
+
   --clr-base-900: #000000;
   --clr-base-500: #555;
   --clr-base-400: #9d9d9d;
@@ -29,6 +31,7 @@
   --clr-selected-text: #ff7a00;
   
 ## Breakpoints
+
   -Breakpoint 320px
   -Breakpoint 375px
   -Breakpoint 991px
