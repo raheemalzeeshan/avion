@@ -619,8 +619,8 @@ header {
 /* Top 100 products */
 
 .top-100__products .top-100__products-container .top-100__products-group img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
   margin: unset;
 }
 .top-100__products
