@@ -1,12 +1,11 @@
 # Avion
-
+<!-- https://www.youtube.com/watch?v=V9zL1kMq5TI -->
 **Live website [Live website](https://avion-ecom.netlify.app/).**
 
 ## Guide
 
-  -Mobile first approch
-  -Using css BEM methodology
-
+    -Mobile first approch
+    -Using css BEM methodology
 
 ## Styling Guide
 
@@ -98,6 +97,5 @@ label {
   ```
 
 **CSS reset refrence [CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/).**
-
 
 
