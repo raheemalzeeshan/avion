@@ -1362,6 +1362,9 @@ header {
 
 
 /* Footer */
+footer  {
+  margin-top: 1rem;
+}
 footer .footer-top {
   background-color: var(--clr-footer-100);
 }
