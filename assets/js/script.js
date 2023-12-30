@@ -65,22 +65,23 @@ const recentProducts_swiper = new Swiper(".mySwiper", {
 let filterIcon = document.querySelector(".category-header__right-filter-icon");
 let filterClose_Icon = document.querySelector(".filter-close__icon");
 let filterSlider = document.querySelector(".category-products__filter");
-
+if(filterIcon){
 filterIcon.addEventListener("click",(e)=>{
     filterSlider.classList.add("category-products__filter--active");
 });
+}
+if(filterClose_Icon){
 filterClose_Icon.addEventListener("click",()=>{
     filterSlider.classList.remove("category-products__filter--active");
 });
-
+}
 // Category hide and show
 let filterHeader_title = document.querySelectorAll(".category-products__filter-item--header");
 let filterBody = document.querySelectorAll(".category-products__filter-item--body")
 let filterToggle_icon = document.querySelectorAll(".category-products__filter-item--toggle")
 for(let i = 0; i < filterHeader_title.length; i++){
+    if(filterHeader_title){
     filterHeader_title[i].addEventListener("click",()=>{
-
-      
         if( filterToggle_icon[i].style.transform == "rotate(180deg)") {
             filterToggle_icon[i].style.transform = "rotate(0deg)";
             filterBody[i].style.cssText = `
@@ -100,4 +101,5 @@ for(let i = 0; i < filterHeader_title.length; i++){
         }
        
     });
+}
 }
