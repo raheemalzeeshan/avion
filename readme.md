@@ -98,4 +98,6 @@ label {
 
 **CSS reset refrence [CSS reset](https://www.joshwcomeau.com/css/custom-css-reset/).**
 
-
+## Swiperjs
+I am using swiperjs for sliders 
+**Swiperjs website [Swiperjs](https://swiperjs.com/).**

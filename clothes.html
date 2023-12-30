@@ -1,0 +1,1644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/favicon/favicon.ico" type="image/x-icon">
+    <!-- Font family Lato and Roboto Slab -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- swiperjs Slider -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <title>Avion - Clothes</title>
+</head>
+
+<body>
+    <header class="is-clothes__page">
+        <!-- Top nav -->
+        <div class="top-nav">
+            <div class="container top-nav__wrap">
+                <!-- nav left  -->
+                <div class="top-nav__left">
+                    <!-- Menu humburger icon for mobile -->
+                    <div class="icon_bars">
+                        <div class="menu-bar">
+                            <img src="assets/images/svg/icon-bars.svg" alt="Menu" />
+                            <span class="menu-bar__txt">Menu</span>
+                        </div>
+                    </div>
+                    <!-- Main logo -->
+                    <div class="main-logo">
+                        <a href="">
+                            <img src="assets/images/logo.png">
+                            <h1>Avion</h1>
+                        </a>
+                    </div>
+                    <!-- Cart for mobile-->
+                    <div class="cart-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <path
+                                d="M9 6.46924L9 7.46924C9 9.12609 10.3431 10.4692 12 10.4692C13.6569 10.4692 15 9.12609 15 7.46924V6.46924"
+                                stroke="#434343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M15.6113 3.46924H8.38836C6.433 3.46924 4.76424 4.88289 4.44278 6.81164L2.77612 16.8116C2.36976 19.2498 4.24994 21.4692 6.72169 21.4692H17.278C19.7498 21.4692 21.6299 19.2498 21.2236 16.8116L19.5569 6.81164C19.2355 4.88289 17.5667 3.46924 15.6113 3.46924Z"
+                                stroke="#434343" stroke-width="1.5" stroke-linejoin="round" />
+                        </svg>
+                        <span class="cart-item__count">3</span>
+                    </div>
+                </div>
+                <!-- Search Form-->
+                <div class="category-form">
+                    <form action="" method="get" id="category-search__form">
+                        <div class="category-search__input">
+                            <label for="avion-search__all--catogery">Search avion</label>
+                            <input type="text" id="avion-search__all--catogery" name="category search"
+                                placeholder="Search Products">
+                            <div class="all-catogery__select--options">
+                                <select name="allcategory">
+                                    <option value="all-categories">All categories</option>
+                                    <option value="women">Women</option>
+                                    <option value="male">Male</option>
+                                    <option value="mother-child">Mother-Child</option>
+                                    <option value="home-furniture">Home & Furniture</option>
+                                    <option value="super-market">Super market</option>
+                                    <option value="cosmetics">Cosmetics</option>
+                                    <option value="shoe-Bag">Shoe & Bag</option>
+                                    <option value="electronic">Electronic</option>
+                                    <option value="sport-outdoor">Sport & Outdoor</option>
+                                    <option value="best-seller">Best seller</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="category-search__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="20" viewBox="0 0 21 20"
+                                fill="none">
+                                <g clip-path="url(#clip0_638_18928)">
+                                    <path
+                                        d="M19.6139 18.7719L17.8596 17.0175M2.07007 9.56136C2.07007 4.95899 5.80103 1.22803 10.4034 1.22803C15.0058 1.22803 18.7367 4.95899 18.7367 9.56136C18.7367 14.1637 15.0058 17.8947 10.4034 17.8947C5.80103 17.8947 2.07007 14.1637 2.07007 9.56136Z"
+                                        stroke="#000" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                            </svg>
+                        </div>
+                    </form>
+                </div>
+                <!-- nav right-->
+                <div class="top-nav__right">
+                    <!-- nav links -->
+                    <nav class="top-nav__links top-nav__right--item">
+                        <ul>
+                            <li>
+                                <a href="">About us</a>
+                            </li>
+                            <li>
+                                <a href="">Blog</a>
+                            </li>
+                            <li>
+                                <a href="">Contact us</a>
+                            </li>
+                            <li>
+                                <a href="">Help & support</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="top-nav__social--links top-nav__right--item">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5 0C2.23858 0 0 2.23858 0 5V15C0 17.7614 2.23858 20 5 20H15C17.7614 20 20 17.7614 20 15V5C20 2.23858 17.7614 0 15 0H5ZM16 5C16.5523 5 17 4.55228 17 4C17 3.44772 16.5523 3 16 3C15.4477 3 15 3.44772 15 4C15 4.55228 15.4477 5 16 5ZM15 10C15 12.7614 12.7614 15 10 15C7.23858 15 5 12.7614 5 10C5 7.23858 7.23858 5 10 5C12.7614 5 15 7.23858 15 10ZM10 13C11.6569 13 13 11.6569 13 10C13 8.34315 11.6569 7 10 7C8.34315 7 7 8.34315 7 10C7 11.6569 8.34315 13 10 13Z"
+                                            fill="#C4C4C4" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="18" viewBox="0 0 12 18"
+                                        fill="none">
+                                        <path
+                                            d="M12 0H9C6.23858 0 4 2.23858 4 5V7H0V11H4V18H8V11H12V7H8V5C8 4.44772 8.44771 4 9 4H12V0Z"
+                                            fill="#C4C4C4" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="16" viewBox="0 0 18 16"
+                                        fill="none">
+                                        <path
+                                            d="M0.896699 6.79637L16.2854 0.145754C17.009 -0.166999 17.7932 0.441585 17.6698 1.22023L15.5657 14.4962C15.4358 15.3162 14.4208 15.6299 13.8509 15.0262L10.398 11.3686C9.72083 10.6514 9.66776 9.54749 10.273 8.76857L12.711 5.63084C12.8503 5.45146 12.6303 5.21549 12.4416 5.34204L7.5943 8.59387C6.77172 9.14569 5.77366 9.37269 4.79333 9.2309L1.15027 8.70401C0.152284 8.55968 -0.0289275 7.1964 0.896699 6.79637Z"
+                                            fill="#C4C4C4" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- nav middle -->
+        <div class="middle-nav">
+            <div class="container middle-nav__wrap">
+                <div class="middle-nav__left middle-nav__item">
+                    <div class="middle-nav__categories">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 6H16M10 14H16M10 10H22M10 18H22M3 10H5C5.55228 10 6 9.55228 6 9V7C6 6.44772 5.55228 6 5 6H3C2.44772 6 2 6.44772 2 7V9C2 9.55228 2.44772 10 3 10ZM3 18H5C5.55228 18 6 17.5523 6 17V15C6 14.4477 5.55228 14 5 14H3C2.44772 14 2 14.4477 2 15V17C2 17.5523 2.44772 18 3 18Z"
+                                stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        </svg>
+                        <select class="heading">
+                            <option value="women">Categories</option>
+                            <option value="women">Women</option>
+                            <option value="male">Male</option>
+                            <option value="mother-child">Mother-Child</option>
+                            <option value="home-furniture">Home & Furniture</option>
+                            <option value="super-market">Super market</option>
+                            <option value="cosmetics">Cosmetics</option>
+                            <option value="shoe-Bag">Shoe & Bag</option>
+                            <option value="electronic">Electronic</option>
+                            <option value="sport-outdoor">Sport & Outdoor</option>
+                            <option value="best-seller">Best seller</option>
+                        </select>
+                    </div>
+                    <div class="middle-nav__currency">
+                        <select>
+                            <option>INR</option>
+                            <option>USD</option>
+                        </select>
+                    </div>
+                    <div class="middle-nav__language">
+                        <select>
+                            <option>English</option>
+                            <option>French</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="middle-nav__center middle-nav__item">
+                    <a href="" class="middle-nav__item-group">
+                        <div class="media">
+                            <img src="assets/images/men-cosmetic.png" alt="Men Cosmetic">
+                        </div>
+                        <div class="content">
+                            <p class="heading">Weekly Men's Toiletries Coupons.</p>
+                            <p>We extend exclusive discounts to our male clientele</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="middle-nav__right middle-nav__item">
+                    <div class="account middle-nav__right-item">
+                        <p>
+                            <a href="" rel="noopener noreferrer">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <ellipse cx="12" cy="17.5" rx="7" ry="3.5" stroke="white" stroke-width="1.5"
+                                        stroke-linejoin="round" />
+                                    <circle cx="12" cy="7" r="4" stroke="white" stroke-width="1.5"
+                                        stroke-linejoin="round" />
+                                </svg>
+                                <span>Sign in</span>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="favorites middle-nav__right-item">
+                        <p>
+                            <a href="" rel="noopener noreferrer">
+                                <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M11.765 2.70229L11 3.52422L10.2349 2.70229C8.12233 0.432572 4.69709 0.43257 2.58447 2.70229C0.471845 4.972 0.471844 8.65194 2.58447 10.9217L9.4699 18.3191C10.3149 19.227 11.685 19.227 12.5301 18.3191L19.4155 10.9217C21.5282 8.65194 21.5282 4.972 19.4155 2.70229C17.3029 0.432571 13.8777 0.432571 11.765 2.70229Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+                                </svg>
+                                <span>favorites</span>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="card middle-nav__right-item">
+                        <p>
+                            <a href="" rel="noopener noreferrer">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25"
+                                    fill="none">
+                                    <path
+                                        d="M9 6.46924L9 7.46924C9 9.12609 10.3431 10.4692 12 10.4692C13.6569 10.4692 15 9.12609 15 7.46924V6.46924"
+                                        stroke="white" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                    </path>
+                                    <path
+                                        d="M15.6113 3.46924H8.38836C6.433 3.46924 4.76424 4.88289 4.44278 6.81164L2.77612 16.8116C2.36976 19.2498 4.24994 21.4692 6.72169 21.4692H17.278C19.7498 21.4692 21.6299 19.2498 21.2236 16.8116L19.5569 6.81164C19.2355 4.88289 17.5667 3.46924 15.6113 3.46924Z"
+                                        stroke="white" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                                Card
+                                <span class="cart-item__count">3</span>
+                            </a>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-nav">
+            <div class="bottom-nav-wrap">
+                <div class="container">
+                    <!-- Nav category link -->
+                    <ul>
+                        <li>
+                            <a href="" class="nav-has__dropdown">Woman</a>
+                            <!-- Dropdown -->
+                            <div class="nav-dropdown">
+                                <div class="nav-dropdown__container">
+                                    <div class="nav-dropdown__itmes">
+                                        <!-- Dropdown item -->
+                                        <ul>
+                                            <p>Shoe & Bag</p>
+                                            <li>
+                                                <a href="">Casual Shoes</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Boots</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Sandals</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Slippers</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Dropdown item -->
+                                        <ul>
+                                            <p>Home Textile</p>
+                                            <li>
+                                                <a href="">Bedding</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Pillows</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Handkerchief Towels</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Curtain</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-dropdown__itmes">
+                                        <!-- Dropdown item -->
+                                        <ul>
+                                            <p>Luxury & designer</p>
+                                            <li>
+                                                <a href="">Towels</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Bathroom Scales</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Bath Mats</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Shower Caps</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Dropdown item -->
+                                        <ul>
+                                            <p>Cosmetics</p>
+                                            <li>
+                                                <a href="">Shampoo and Conditioner</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Styling Products</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Hair Accessories</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Men's Grooming</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-dropdown__itmes">
+                                        <!-- Dropdown item -->
+                                        <ul>
+                                            <p>Party Supplies</p>
+                                            <li>
+                                                <a href="">Event & Party</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Christmas</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Artificial Decorations</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Wedding</a>
+                                            </li>
+                                        </ul>
+                                        <!-- Dropdown item -->
+                                        <ul>
+                                            <p>Sport & Outdoors</p>
+                                            <li>
+                                                <a href="">Event & Party</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Team Sports</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Water Sports</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Outdoor Recreation</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Fitness Equipment</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="nav-dropdown__itmes">
+                                        <!-- Dropdown item -->
+                                        <ul>
+                                            <p>Clothes</p>
+                                            <li>
+                                                <a href="">Bottoms</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Women's Clothing</a>
+                                            </li>
+                                            <li>
+                                                <a href="">T-Shirts and Tops</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Dresses</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Outerwear</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Formal Wear</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Casual Wear</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Seasonal Collections</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Sports Bras</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Workout Tops</a>
+                                            </li>
+                                            <li>
+                                                <a href="">Fall Wardrobe</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li> <a href="">Male</a></li>
+                        <li> <a href="">Mother-Child</a></li>
+                        <li> <a href="">Home & Furniture</a></li>
+                        <li> <a href="">Super market</a></li>
+                        <li> <a href="">Cosmetics</a></li>
+                        <li> <a href="">Shoe & Bag</a></li>
+                        <li> <a href="">Electronic</a></li>
+                        <li> <a href="">Sport & Outdoor</a></li>
+                        <li> <a href="">Best seller</a></li>
+                    </ul>
+                </div>
+                <!-- Only show on mobile and tablet links -->
+                <ul class="bottom-nav__onmobile">
+                    <div class="container">
+                        <li>
+                            <a href="">Login/Register</a>
+                            <svg width="6" height="13" viewBox="0 0 6 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L5 6.5L1 11.5" stroke="#434343" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </li>
+                        <li>
+                            <a href="">Help & Support</a>
+                            <svg width="6" height="13" viewBox="0 0 6 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L5 6.5L1 11.5" stroke="#434343" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+
+                        </li>
+                        <li>
+                            <a href="">About us</a>
+                            <svg width="6" height="13" viewBox="0 0 6 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L5 6.5L1 11.5" stroke="#434343" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                            <svg width="6" height="13" viewBox="0 0 6 13" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M1 1.5L5 6.5L1 11.5" stroke="#434343" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="pagination">
+            <div class="pagination-container container">
+                <div class="pagination-links">
+                    <span>
+                        <a href="">Homepage</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.33398 5.8335L11.6673 10.0002L8.33398 14.1668" stroke="#28303F"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <span>
+                        <a href="">Men</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.33398 5.8335L11.6673 10.0002L8.33398 14.1668" stroke="#28303F"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <span>
+                        <a href="">Clothes</a>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M8.33398 5.8335L11.6673 10.0002L8.33398 14.1668" stroke="#28303F"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </section>
+        <section class="category-header">
+            <div class="category-header__container container">
+                <div class="category-header__title-onmobile">
+                    <p class="heading">Clothes Regular Fit</p>
+                    <a href="">View all
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="8" viewBox="0 0 4 8" fill="none">
+                            <path d="M0.666016 0.605469L3.33268 3.9388L0.666015 7.27214" stroke="#434343"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+                <!-- Category Filter onMobile -->
+                <div class="category-group__onmobile">
+                    <div class="category-header__left">
+                        <select>
+                            <option>Sort by order</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                            <option>Bestselling</option>
+                            <option>Newest Arrivals</option>
+                        </select>
+                    </div>
+                    <div class="category-header__right category-header__right-filter-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 25 25" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M3.24833 6.64299C1.93847 4.70127 3.35819 2.12793 5.68188 2.12793H19.3195C21.6432 2.12793 23.0629 4.70128 21.7531 6.64299C21.7448 6.65531 21.7361 6.66737 21.7271 6.67917L16.0196 14.1424C15.6335 14.7221 15.4282 15.4001 15.4282 16.0927V19.6478C15.4282 20.135 15.2323 20.6004 14.8865 20.9421L12.709 23.0941C11.5625 24.2271 9.5732 23.4428 9.5732 21.7998V16.0927C9.5732 15.4001 9.36788 14.7221 8.98184 14.1424L3.27433 6.67917C3.2653 6.66737 3.25663 6.65531 3.24833 6.64299ZM4.48077 5.78748L10.1875 13.2498C10.1966 13.2616 10.2052 13.2736 10.2135 13.2859C10.7737 14.1164 11.0732 15.093 11.0732 16.0927V21.7998C11.0732 22.0739 11.4294 22.2498 11.6546 22.0272L13.8321 19.8752C13.8947 19.8134 13.9282 19.7314 13.9282 19.6478V16.0927C13.9282 15.093 14.2277 14.1164 14.7879 13.2859C14.7962 13.2736 14.8049 13.2616 14.8139 13.2498L20.5207 5.78747C21.1212 4.87054 20.4672 3.62793 19.3195 3.62793H5.68188C4.53421 3.62793 3.88018 4.87055 4.48077 5.78748Z"
+                                fill="#FF7A00" />
+                        </svg>
+                        <span>Filter</span>
+                    </div>
+                </div>
+                <div class="category-header__group">
+                    <div class="category-header__left">
+                        <p class="heading">Clothes</p>
+                        <p class="category-itemsCount">110 items</p>
+                    </div>
+                    <div class="category-header__right">
+                        <select>
+                            <option>Sort by order</option>
+                            <option>Price: Low to High</option>
+                            <option>Price: High to Low</option>
+                            <option>Bestselling</option>
+                            <option>Newest Arrivals</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="category-products">
+            <div class="category-products__container container">
+                
+                <div class="category-products__filter">
+                    <div class="category-products__filter-container">
+                        <span class="filter-close__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                <path d="M16.2431 7.75738L7.75781 16.2427M16.2431 16.2426L7.75781 7.75732" stroke="#28303F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                        </span>
+                        <div class="category-products__filter-header">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                                fill="none">
+                                <path
+                                    d="M17 14C17 15.6569 15.6569 17 14 17C12.3431 17 11 15.6569 11 14C11 12.3431 12.3431 11 14 11C15.6569 11 17 12.3431 17 14Z"
+                                    stroke="#434343" stroke-width="1.5" />
+                                <path
+                                    d="M11 3C11 1.89543 11.8954 1 13 1H15C16.1046 1 17 1.89543 17 3V5C17 6.10457 16.1046 7 15 7H13C11.8954 7 11 6.10457 11 5V3Z"
+                                    stroke="#434343" stroke-width="1.5" />
+                                <path
+                                    d="M1 3C1 1.89543 1.89543 1 3 1H5C6.10457 1 7 1.89543 7 3V5C7 6.10457 6.10457 7 5 7H3C1.89543 7 1 6.10457 1 5V3Z"
+                                    stroke="#434343" stroke-width="1.5" />
+                                <path
+                                    d="M1 13C1 11.8954 1.89543 11 3 11H5C6.10457 11 7 11.8954 7 13V15C7 16.1046 6.10457 17 5 17H3C1.89543 17 1 16.1046 1 15V13Z"
+                                    stroke="#434343" stroke-width="1.5" />
+                            </svg>
+                            <span class="heading">All Categories</span>
+                            
+                        </div>
+                        <!-- search item -->
+                        <div class="category-products__filter-item">
+                            <div class="category-products__filter-item--header">
+                                <span class="heading">Brand</span>
+                                <span class="category-products__filter-item--toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5 3.1526L1.31105 6.86017C1.12551 7.04661 0.824692 7.04661 0.639154 6.86017C0.453615 6.67372 0.453615 6.37143 0.639154 6.18499L4.66405 2.13983C4.84959 1.95339 5.15041 1.95339 5.33595 2.13983L9.36085 6.18499C9.54638 6.37143 9.54638 6.67372 9.36085 6.86017C9.17531 7.04661 8.87449 7.04661 8.68895 6.86017L5 3.1526Z"
+                                            fill="#C4C4C4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="category-products__filter-item--body category-products__filter-item--form">
+                                <form>
+                                    <label for="search">Search</label>
+                                    <input type="search" name="search" id="search" placeholder="Search" />
+                                    <button>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                            viewBox="0 0 16 16" fill="none">
+                                            <g clip-path="url(#clip0_890_1211)">
+                                                <path
+                                                    d="M14.6663 14.6668L13.333 13.3335M1.33301 7.66683C1.33301 4.16903 4.16854 1.3335 7.66634 1.3335C11.1641 1.3335 13.9997 4.16903 13.9997 7.66683C13.9997 11.1646 11.1641 14.0002 7.66634 14.0002C4.16854 14.0002 1.33301 11.1646 1.33301 7.66683Z"
+                                                    stroke="#C4C4C4" stroke-linecap="round" stroke-linejoin="round" />
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_890_1211">
+                                                    <rect width="16" height="16" fill="white" />
+                                                </clipPath>
+                                            </defs>
+                                        </svg>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                        <!-- Model item -->
+                        <div class="category-products__filter-item">
+                            <div class="category-products__filter-item--header">
+                                <span class="heading">Model</span>
+                                <span class="category-products__filter-item--toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5 3.1526L1.31105 6.86017C1.12551 7.04661 0.824692 7.04661 0.639154 6.86017C0.453615 6.67372 0.453615 6.37143 0.639154 6.18499L4.66405 2.13983C4.84959 1.95339 5.15041 1.95339 5.33595 2.13983L9.36085 6.18499C9.54638 6.37143 9.54638 6.67372 9.36085 6.86017C9.17531 7.04661 8.87449 7.04661 8.68895 6.86017L5 3.1526Z"
+                                            fill="#C4C4C4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="category-products__filter-item--body category-products__filter-item--model">
+                                <ul>
+                                    <li>
+                                        <a href="">
+                                            <span>Short</span>
+                                            <span>60</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>Mid-length</span>
+                                            <span>10</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>Sweather</span>
+                                            <span>86</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>Party Dresses</span>
+                                            <span>80</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <span>Regular Fit</span>
+                                            <span>100</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Style item -->
+                        <div class="category-products__filter-item">
+                            <div class="category-products__filter-item--header">
+                                <span class="heading">Style</span>
+                                <span class="category-products__filter-item--toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5 3.1526L1.31105 6.86017C1.12551 7.04661 0.824692 7.04661 0.639154 6.86017C0.453615 6.67372 0.453615 6.37143 0.639154 6.18499L4.66405 2.13983C4.84959 1.95339 5.15041 1.95339 5.33595 2.13983L9.36085 6.18499C9.54638 6.37143 9.54638 6.67372 9.36085 6.86017C9.17531 7.04661 8.87449 7.04661 8.68895 6.86017L5 3.1526Z"
+                                            fill="#C4C4C4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="category-products__filter-item--body category-products__filter-item--style">
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="casual" />
+                                    <label for="casual">Casual</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Business casual" />
+                                    <label for="Business casual">Business casual</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Bohemian" />
+                                    <label for="Bohemian">Bohemian</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Minimalist" />
+                                    <label for="Minimalist">Minimalist</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Uniqlo" />
+                                    <label for="Uniqlo">Uniqlo</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Zara" />
+                                    <label for="Zara">Zara</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Gucci" />
+                                    <label for="Gucci">Gucci</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Mango" />
+                                    <label for="Mango">Mango</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Ralph Lauren" />
+                                    <label for="Ralph Lauren">Ralph Lauren</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                                <span class="input-wrap">
+                                    <input type="checkbox" id="Calvin Klein" />
+                                    <label for="Calvin Klein">Calvin Klein</label>
+                                    <span class="checkmark"></span>
+                                </span>
+                            </div>
+                        </div>
+
+                        <!-- Colors -->
+                        <div class="category-products__filter-item">
+                            <div class="category-products__filter-item--header">
+                                <span class="heading">Color</span>
+                                <span class="category-products__filter-item--toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5 3.1526L1.31105 6.86017C1.12551 7.04661 0.824692 7.04661 0.639154 6.86017C0.453615 6.67372 0.453615 6.37143 0.639154 6.18499L4.66405 2.13983C4.84959 1.95339 5.15041 1.95339 5.33595 2.13983L9.36085 6.18499C9.54638 6.37143 9.54638 6.67372 9.36085 6.86017C9.17531 7.04661 8.87449 7.04661 8.68895 6.86017L5 3.1526Z"
+                                            fill="#C4C4C4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="category-products__filter-item--body category-products__filter-item--style-wrap">
+                                <!-- Colors row  -->
+                                <div class="category-products__filter-item--style">
+                                    <!-- Red -->
+                                    <div class="category-products__filter-item--color-red colors input-wrap">
+                                        <label for="red">Red</label>
+                                        <input type="checkbox" id="red">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none" id="red">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#FF2E00" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Pink -->
+                                    <div class="category-products__filter-item--color-pink colors input-wrap">
+                                        <label for="pink">Pink</label>
+                                        <input type="checkbox" id="pink">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#F7DDD0" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Blue -->
+                                    <div class="category-products__filter-item--color-blue colors input-wrap">
+                                        <label for="blue">Blue</label>
+                                        <input type="checkbox" id="blue">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#66A5FF" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Orange -->
+                                    <div class="category-products__filter-item--color-orange colors input-wrap">
+                                        <label for="orange">Orange</label>
+                                        <input type="checkbox" id="orange">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#FF9D41" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Yellow -->
+                                    <div class="category-products__filter-item--color-yellow colors input-wrap">
+                                        <label for="yellow">Yellow</label>
+                                        <input type="checkbox" id="yellow">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#FFD36C" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Green -->
+                                    <div class="category-products__filter-item--color-green colors input-wrap">
+                                        <label for="green" id="green">Green</label>
+                                        <input type="checkbox">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#4BCB88" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                </div>
+                                <!-- Colors row  -->
+                                <div class="category-products__filter-item--style">
+                                    <!-- light blue -->
+                                    <div class="category-products__filter-item--color-light-blue colors input-wrap">
+                                        <label for="light-blue">Light Blue</label>
+                                        <input type="checkbox" id="light-blue">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#9747FF" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Orange -->
+                                    <div class="category-products__filter-item--color-pink colors input-wrap">
+                                        <label for="orange">Orange</label>
+                                        <input type="checkbox" id="orange">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#FF67DE" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Brown -->
+                                    <div class="category-products__filter-item--color-blue colors input-wrap">
+                                        <label for="brown">Brown</label>
+                                        <input type="checkbox" id="brown">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#967C62" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Black -->
+                                    <div class="category-products__filter-item--color-orange colors input-wrap">
+                                        <label for="brown">Black</label>
+                                        <input type="checkbox" id="brown">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#434343" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- Grey -->
+                                    <div class="category-products__filter-item--color-yellow colors input-wrap">
+                                        <label for="grey">Grey</label>
+                                        <input type="checkbox" id="grey">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="25"
+                                            viewBox="0 0 26 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M13 25C19.9036 25 25.5 19.4036 25.5 12.5C25.5 5.59644 19.9036 0 13 0C6.09644 0 0.5 5.59644 0.5 12.5C0.5 19.4036 6.09644 25 13 25Z"
+                                                fill="#BCBFC2" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                    <!-- White -->
+                                    <div class="category-products__filter-item--color-green colors input-wrap">
+                                        <label for="white">White</label>
+                                        <input type="checkbox" id="white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="27"
+                                            viewBox="0 0 28 27" fill="none">
+                                            <path
+                                                d="M14 26.5C21.1797 26.5 27 20.6797 27 13.5C27 6.3203 21.1797 0.5 14 0.5C6.8203 0.5 1 6.3203 1 13.5C1 20.6797 6.8203 26.5 14 26.5Z"
+                                                fill="white" stroke="#D9D9D9" />
+                                        </svg>
+                                        <span class="checkmark"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Size -->
+                        <div class="category-products__filter-item">
+                            <div class="category-products__filter-item--header">
+                                <span class="heading">Size</span>
+                                <span class="category-products__filter-item--toggle">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10"
+                                        fill="none">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M5 3.1526L1.31105 6.86017C1.12551 7.04661 0.824692 7.04661 0.639154 6.86017C0.453615 6.67372 0.453615 6.37143 0.639154 6.18499L4.66405 2.13983C4.84959 1.95339 5.15041 1.95339 5.33595 2.13983L9.36085 6.18499C9.54638 6.37143 9.54638 6.67372 9.36085 6.86017C9.17531 7.04661 8.87449 7.04661 8.68895 6.86017L5 3.1526Z"
+                                            fill="#C4C4C4" />
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="category-products__filter-item--body category-products__filter-item--size-wrap">
+                                <!-- Size row  -->
+                                <div class="category-products__filter-item--size">
+                                    <span>2XS</span>
+                                    <span>XS</span>
+                                    <span>S</span>
+                                    <span class="active">M</span>
+                                </div>
+                                <div class="category-products__filter-item--size">
+                                    <span class="active">L</span>
+                                    <span>XL</span>
+                                    <span>2XL</span>
+                                    <span>3XL</span>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="category-products__wrap">
+                    <div class="category-products__container">
+                        <div class="category-products__product-group">
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-1.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-2.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-3.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-4.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-5.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-6.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-7.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-8.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Product -->
+                            <div class="category-products__product">
+                                <div class="category-products__product-media">
+                                    <img src="assets/images/products/product-9.jpg" alt="product" />
+                                </div>
+                                <div class="category-products__product-content">
+                                    <div class="category-products__product-content--left">
+                                        <h3>Mango</h3>
+                                        <p>Kimono & Caftan - Black - Casual</p>
+                                        <div class="category-products__product-rating">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                                viewBox="0 0 24 25" fill="none">
+                                                <path
+                                                    d="M10.0328 3.77141C10.8375 2.0762 13.1625 2.0762 13.9672 3.77141L15.3579 6.70118C15.6774 7.37435 16.2951 7.84094 17.0096 7.94888L20.1193 8.41869C21.9187 8.69053 22.6371 10.9895 21.3351 12.3091L19.0849 14.5896C18.5679 15.1136 18.332 15.8685 18.454 16.6084L18.9852 19.8285C19.2926 21.6918 17.4116 23.1126 15.8022 22.2329L13.0208 20.7126C12.3817 20.3633 11.6183 20.3633 10.9792 20.7126L8.19776 22.2329C6.58839 23.1126 4.70742 21.6918 5.01479 19.8286L5.54599 16.6084C5.66804 15.8685 5.43211 15.1136 4.91508 14.5896L2.66488 12.3091C1.36287 10.9895 2.08133 8.69053 3.88066 8.41869L6.99037 7.94888C7.70489 7.84094 8.32257 7.37435 8.64211 6.70118L10.0328 3.77141Z"
+                                                    fill="#FFC000" />
+                                            </svg>
+                                            <div class="category-products__product-rating--count">
+                                                <span>(289)</span>
+                                            </div>
+                                        </div>
+                                        <div class="category-products__product-pricing">
+                                            <p class="category-products__product-sale--price">
+                                                $215
+                                            </p>
+                                            <p class="category-products__product-current--price">
+                                                $225
+                                            </p>
+                                            <p class="category-products__product-percentage">
+                                                -10%
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="category-products__product-content--right">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="20"
+                                            viewBox="0 0 22 20" fill="none">
+                                            <path
+                                                d="M11.6851 2.73538L11 3.47924L10.315 2.73539C8.18404 0.421557 4.72912 0.421554 2.5982 2.73539C0.5245 4.98709 0.460783 8.6159 2.45393 10.9518L8.18026 17.6628C9.70154 19.4457 12.2984 19.4457 13.8197 17.6628L19.5461 10.9518C21.5392 8.61587 21.4755 4.98707 19.4018 2.73537C17.2709 0.42154 13.816 0.421543 11.6851 2.73538Z"
+                                                stroke="#28303F" stroke-width="1.5" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="container footer-top__container">
+                <div class="footer-top__item">
+                    <ul>
+                        <p>Company</p>
+                        <li>
+                            <a href="">About Us</a>
+                        </li>
+                        <li>
+                            <a href="">Our Store</a>
+                        </li>
+                        <li>
+                            <a href="">Contact us</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <p>Career Opportunities</p>
+                        <li>
+                            <a href="">Selling Programs</a>
+                        </li>
+                        <li>
+                            <a href="">Advertise</a>
+                        </li>
+                        <li>
+                            <a href="">Cooperation </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-top__item">
+                    <ul>
+                        <p>How to Buy</p>
+                        <li>
+                            <a href="">Making Payments</a>
+                        </li>
+                        <li>
+                            <a href="">Delivery Options</a>
+                        </li>
+                        <li>
+                            <a href="">Buyer Protection</a>
+                        </li>
+                        <li>
+                            <a href="">New User Guide</a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <p>Help</p>
+                        <li>
+                            <a href="">Contacts Us</a>
+                        </li>
+                        <li>
+                            <a href="">FAQ</a>
+                        </li>
+                        <li>
+                            <a href="">Privacy Policy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-center">
+            <div class="container footer-center__container">
+                <div class="footer-center__items">
+                    <div class="footer-payment__icons">
+                        <img src="assets/images/payment-icons/visa.png" alt="visa" class="img_visa" />
+                        <img src="assets/images/payment-icons/mastercard.png" alt="mastercard" class="img_mastercard" />
+                        <img src="assets/images/payment-icons/paypal.png" alt="paypal" class="img_paypal" />
+                    </div>
+                    <div class="footer-center__language">
+                        <select>
+                            <option>English</option>
+                            <option>French</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom__container">
+                <div class="footer-bottom__address">
+                    <p>165-179 Forster Road City of Monash, Melbourne, Australia</p>
+                </div>
+                <div class="footer-bottom__credit">
+                    <p>©2023 Copyright in reserved for lumine shop</p>
+                </div>
+                <div class="footer-bottom__social-icons">
+
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <g id="Icon/social/outline/instagram">
+                                <rect id="Vector" x="2" y="2.5" width="20" height="20" rx="4" stroke="#434343"
+                                    stroke-width="1.5" />
+                                <circle id="Vector_2" cx="18" cy="6.5" r="1" fill="#434343" />
+                                <circle id="Vector_3" cx="12" cy="12.5" r="5" stroke="#434343" stroke-width="1.5" />
+                            </g>
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+                            <path
+                                d="M18 3.5H15C12.2386 3.5 10 5.73858 10 8.5V10.5H6V14.5H10V21.5H14V14.5H18V10.5H14V8.5C14 7.94772 14.4477 7.5 15 7.5H18V3.5Z"
+                                stroke="#434343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17" fill="none">
+                            <path
+                                d="M1.90891 7.5952L17.2976 0.944582C18.0212 0.631829 18.8054 1.24041 18.682 2.01906L16.5779 15.295C16.448 16.1151 15.4331 16.4287 14.8631 15.825L11.5295 12.2699C10.8523 11.5526 10.7992 10.4488 11.4045 9.66984L13.7232 6.42966C13.8626 6.25029 13.6425 6.01431 13.4538 6.14086L8.60651 9.39269C7.78393 9.94452 6.78586 10.1715 5.80554 10.0297L2.16248 9.50284C1.16449 9.3585 0.98328 7.99523 1.90891 7.5952Z"
+                                stroke="#434343" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

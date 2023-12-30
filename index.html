@@ -12,6 +12,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
+    <!-- swiperjs Slider -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
     <title>Avion</title>
 </head>
 
@@ -153,7 +155,7 @@
                                 d="M10 6H16M10 14H16M10 10H22M10 18H22M3 10H5C5.55228 10 6 9.55228 6 9V7C6 6.44772 5.55228 6 5 6H3C2.44772 6 2 6.44772 2 7V9C2 9.55228 2.44772 10 3 10ZM3 18H5C5.55228 18 6 17.5523 6 17V15C6 14.4477 5.55228 14 5 14H3C2.44772 14 2 14.4477 2 15V17C2 17.5523 2.44772 18 3 18Z"
                                 stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
                         </svg>
-                        <select class="heading-2">
+                        <select class="heading">
                             <option value="women">Categories</option>
                             <option value="women">Women</option>
                             <option value="male">Male</option>
@@ -186,7 +188,7 @@
                             <img src="assets/images/men-cosmetic.png" alt="Men Cosmetic">
                         </div>
                         <div class="content">
-                            <p class="heading-2">Weekly Men's Toiletries Coupons.</p>
+                            <p class="heading">Weekly Men's Toiletries Coupons.</p>
                             <p>We extend exclusive discounts to our male clientele</p>
                         </div>
                     </a>
@@ -1092,6 +1094,120 @@
                 </div>
             </div>
         </section>
+        <!-- Product card -->
+        <section class="product-card">
+            <div class="container product-card__container">
+                <!-- Banner item top -->
+                <div class="product-card__item product-card__item-top">
+                    <div class="product-card__content">
+                        <h2>Never-Ending Summer</h2>
+                        <p>Throwback Shirts &amp; all-day dressed</p>
+                        <a href="">Exlopre all category</a>
+                    </div>
+                    <div class="product-card__media">
+                        <img src="assets/images/products/red-tshirt-man.png" alt="red T-shirt" />
+                    </div>
+                </div>
+                <!-- Banner item bottom -->
+                <div class="product-card__item product-card__item-bottom">
+                    <div class="product-card__content">
+                        <h2>Best Lovin Sellers</h2>
+                        <p>Shirt &amp; T-shirt men's include</p>
+                        <a href="">Exlopre all category</a>
+                    </div>
+                    <div class="product-card__media">
+                        <img src="assets/images/products/white-tshirt-man.png" alt="white T-shirt" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product slider -->
+        <section class="product-slider">
+            <div class="product-slider__container container">
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="product-slider__item">
+                                <div class="product-slider__content">
+                                    <h3>MagSafe</h3>
+                                    <p>Snap on a magnetic case, wallet, or both. And get faster wireless charging.</p>
+                                </div>
+                                <div class="product-slider__media">
+                                    <img src="assets/images/products/iphone.png" alt="iphone" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-slider__item">
+                                <div class="product-slider__content">
+                                    <h3>MagSafe One</h3>
+                                    <p>Snap on a magnetic case, wallet, or both. And get faster wireless charging.</p>
+                                </div>
+                                <div class="product-slider__media">
+                                    <img src="assets/images/products/iphone.png" alt="iphone" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="product-slider__item">
+                                <div class="product-slider__content">
+                                    <h3>MagSafe Three</h3>
+                                    <p>Snap on a magnetic case, wallet, or both. And get faster wireless charging.</p>
+                                </div>
+                                <div class="product-slider__media">
+                                    <img src="assets/images/products/iphone.png" alt="iphone" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+
+                    <div class="swiper-button-prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                            <path d="M18.6667 9.83325L13.3334 16.4999L18.6667 23.1666" stroke="#434343" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                    <div class="swiper-button-next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 32 33" fill="none">
+                            <path d="M13.3333 9.83325L18.6666 16.4999L13.3333 23.1666" stroke="#434343" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Product card -->
+        <section class="product-card product-card__bottom">
+            <div class="container product-card__container">
+                <!-- Banner item top -->
+                <div class="product-card__item product-card__item-top">
+                    <div class="product-card__content">
+                        <h2>The Pinky Barbie Edition</h2>
+                        <p>Lets play dress up</p>
+                        <a href="">Exlopre all category</a>
+                    </div>
+                    <div class="product-card__media">
+                        <img src="assets/images/products/pink-sunglass.png" alt="sunglass" />
+                    </div>
+                </div>
+                <!-- Banner item bottom -->
+                <div class="product-card__item product-card__item-bottom">
+                    <div class="product-card__content">
+                        <h2>Best Lovin Sellers</h2>
+                        <p>Shirt &amp; T-shirt men's include</p>
+                        <a href="">Exlopre all category</a>
+                    </div>
+                    <div class="product-card__media">
+                        <img src="assets/images/products/white-tshirt.png" alt="white T-shirt" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- NewsLetter -->
         <section class="newsletter">
             <div class="container newsletter-container">
@@ -1229,6 +1345,7 @@
         </div>
     </footer>
 
+    <script src="assets/js/swiper-bundle.min.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 
