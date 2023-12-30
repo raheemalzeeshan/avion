@@ -219,6 +219,7 @@ header {
   position: absolute;
   top: 0;
   left: 0;
+  z-index: 999;
 }
 .bottom-nav .bottom-nav-wrap ul li {
   padding-bottom: 1.5rem;
